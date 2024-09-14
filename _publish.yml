@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 79f9a7c4-5084-4de9-9eb1-82592bbc4c8c
+      url: 'https://profmanagement.quarto.pub/digitalgarden'
