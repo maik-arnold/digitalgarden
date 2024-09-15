@@ -1,0 +1,165 @@
+---
+title: Digital Garden Notebook
+title-block-banner: images/background-banner.png
+title-block-banner-color: black
+author:
+  - name: Maik Arnold
+    orcid: 0000-0001-9609-8521
+    corresponding: true
+    email: maik.arnold@studium.uni-hamburg.de
+    roles:
+      - Investigation
+      - Project administration
+      - Software
+      - Visualization
+    affiliations:
+      - Universität Hamburg
+keywords:
+  - Digital Garden
+  - Phenomenography
+abstract: |
+  In September 2024, I started my Master's thesis at Hamburg University that deals with the use of digital gardening as a pedagogical practice for university teachers. This notebook contain all contents of my field research in order to identify such practices.
+plain-language-summary: |
+  This Notebook researches the digital gardening practices from a higher education perspective. 
+key-points:
+  - This notebook contains links and reflections from the web-based research
+  - The notebook is used as research journal and for reflection.
+date: last-modified
+bibliography: references.bib
+csl: apa.csl
+citation:
+  container-title: Digital Gardening
+number-sections: true
+---
+
+## First Reading Excerpts of Digital Garden Websites
+
+::: callout-note
+This notebook is regularly updated.
+:::
+
+This research started in September 2024 with an investigation of the main conceptual ideas of [Digital Gardening](https://maggieappleton.com/garden-history?ref=ideasurg.pub) described by the cultural anthropologist and lead design engineer at [**Normally**](https://normally.com/) [Maggie Appleton](https://maggieappleton.com/about). @appleton2020Brief defines "digital gardening" as an individual practice for idea generation and collection, personal note-taking and knowledge management that is not following the conventions of the otherwise known techniques of personal blogging. Usually, small collections of personal knowledge are created on the web:
+
+> "Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis" [@appleton2020Brief].
+
+In other words, a *garden* is a flexible collection of evolving ideas connected through contextual associations rather than organised by publication date. These notes are usually incomplete, exploratory thoughts that develop and become rigid over time, but they are less polished compared to traditional personal websites.
+
+This more or less lengthy video presentation in @fig-digitalgarden describes this concept:
+
+::: {#fig-digitalgarden}
+{{< video https://www.youtube.com/embed/S8uo9oPmx84 title="What is Digital Gardening?" start="0" aspect-ratio="16x9" >}}
+
+The video "Digital Gardening in the Age of the Platform" by Cailean Finn. Presented at the 2nd Symposium on Digital Art in Ireland, University College Cork, June 2024 (Source: <https://youtu.be/S8uo9oPmx84?si=3Us9i7jv8wsSNY0o>)
+:::
+
+## What Technology do I use?
+
+After browsing the web on my phone, I was wondering how I could clip all the links, documents, quotes etc. Instead of sending everything to a bookmark clipper or other software, I discover the open-source and multi-format academic manuscript writing tool called [Quarto](https://quarto.org/docs/manuscripts/authoring/rstudio.html). This is a publishing system that allows users to create and publish a wide variety of documents, including reports, websites, blogs, presentations, and more. All text and code is written with in the [Markdown](https://www.markdownguide.org/getting-started/) format. For this, [RStudio](https://posit.co/download/rstudio-desktop/) is currently a suitable editor.
+
+Besides that, I use [Tana](https://tana.inc/) (previously [Roam Research](https://roamresearch.com/)) on a regularly basis as a go-to tool to store all the links and quotes for personal knowledge management.
+
+## Discovery of the Digital Gardens
+
+This is what I found: There are a number of educators and people from the creative industry that are interested in digital gardening. Most pages, blogs, websites work with analogies and metaphors.
+
+[Tim Rodenböcker](https://downgrade.timrodenbroeker.de/posts/digital-garden/) describes in his blogpost "How I built myself a Digital Garden" [@rodenbroker2023How] how he uses 'clouds-drops-plants' as artefacts of his thinking, ideation and content creation process. He refers to some of the ideas used in the 'second brain' concept by [Tiago Fortes](https://fortelabs.com/) (see @fig-tim):
+
+> "Clouds are notes and excerpts from concrete sources. These can be books, podcast episodes, or press articles. Each cloud is a separate text file in Markdown format. I have now created such a file for all the books I have had in my hands in the last few years. I write a note there when I find a thought interesting while reading or listening to it. Drops are fragments that are too small to represent an independent text. They are tiny stores of information, paragraphs, but also lists and loose notes. Sometimes it's just a headline. Plants are text projects. I learned the idea from Tiago Forte: he advises to organize one's knowledge in idea management tools basically in text projects" [@rodenbroker2023How].
+
+::: {#fig-tim}
+![](images/dg1.png){fig-align="left" width="800"}
+
+Digital Garden by Tim Rodenböcker (Source: <https://downgrade.timrodenbroeker.de/images/dg1.png>)
+:::
+
+> "I have now created such a file for all the books I have had in my hands in the last few years. I write a note there when I find a thought interesting while reading or listening to it. Drops are fragments that are too small to represent an independent text. They are tiny stores of information, paragraphs, but also lists and loose notes. Sometimes it's just a headline" [@rodenbroker2023How].
+
+````{=html}
+<!-- ## Template
+
+```{r}
+eruptions <- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
+n_eruptions <- length(eruptions)
+```
+
+```{r}
+#| label: fig-timeline
+#| fig-cap: Timeline of recent earthquakes on La Palma
+#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.
+#| fig-height: 1.5
+#| fig-width: 6
+par(mar = c(3, 1, 1, 1) + 0.1)
+plot(eruptions, rep(0, n_eruptions), 
+  pch = "|", axes = FALSE)
+axis(1)
+box()
+```
+
+```{r}
+#| output: false
+avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
+avg_years_between_eruptions
+```
+-->
+````
+
+<!-- Based on data up to and including 1971, eruptions on La Palma happen every `r round(avg_years_between_eruptions, 1)` years on average. -->
+
+<!-- Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth). -->
+
+<!-- Eight eruptions have been recorded since the late 1400s (@fig-timeline). -->
+
+<!-- Data and methods are discussed in @sec-data-methods. -->
+
+<!-- Let $x$ denote the number of eruptions in a year. Then, $x$ can be modeled by a Poisson distribution -->
+
+<!-- $$ -->
+
+<!-- p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !} -->
+
+<!-- $$ {#eq-poisson} -->
+
+<!-- where $\lambda$ is the rate of eruptions per year. Using @eq-poisson, the probability of an eruption in the next $t$ years can be calculated. -->
+
+<!-- | Name                | Year | -->
+
+<!-- |---------------------|------| -->
+
+<!-- | Current             | 2021 | -->
+
+<!-- | Teneguía            | 1971 | -->
+
+<!-- | Nambroque           | 1949 | -->
+
+<!-- | El Charco           | 1712 | -->
+
+<!-- | Volcán San Antonio  | 1677 | -->
+
+<!-- | Volcán San Martin   | 1646 | -->
+
+<!-- | Tajuya near El Paso | 1585 | -->
+
+<!-- | Montaña Quemada     | 1492 | -->
+
+<!-- : Recent historic eruptions on La Palma {#tbl-history} -->
+
+<!-- @tbl-history summarises the eruptions recorded since the colonization of the islands by Europeans in the late 1400s. -->
+
+<!-- ![Map of La Palma](images/la-palma-map.png){#fig-map} -->
+
+<!-- La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands (@fig-map). -->
+
+<!-- {{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}} -->
+
+<!-- @fig-spatial-plot shows the location of recent Earthquakes on La Palma. -->
+
+<!-- ## Data & Methods {#sec-data-methods} -->
+
+## Conclusion
+
+To conlude for today, digital gardens provide a dynamic and creative framework for personal knowledge management, seamlessly blending flexible idea cultivation with modern digital tools to enhance individual learning and creativity.
+
+## References {.unnumbered}
+
+::: {#refs}
+:::

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>Digital Gardening</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Digital Garden Notebook</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-9609-8521</contrib-id>
+          <name>
+            <surname>Arnold</surname>
+            <given-names>Maik</given-names>
+          </name>
+          <string-name>Maik Arnold</string-name>
+          <email>maik.arnold@studium.uni-hamburg.de</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+administration</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Universität Hamburg</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">maik.arnold@studium.uni-hamburg.de</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-09-15">
+        <year>2024</year>
+        <month>9</month>
+        <day>15</day>
+      </pub-date>
+      <history/>
+      <abstract>
+        <p>In September 2024, I started my Master’s thesis at Hamburg University
+that deals with the use of digital gardening as a pedagogical practice
+for university teachers. This notebook contain all contents of my field
+research in order to identify such practices.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Digital Garden</kwd>
+        <kwd>Phenomenography</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="first-reading-excerpts-of-digital-garden-websites">
+      <title>1 First Reading Excerpts of Digital Garden Websites</title>
+      <boxed-text>
+        <p>
+          <bold>Note</bold>
+        </p>
+        <p>This notebook is regularly updated.</p>
+      </boxed-text>
+      <p>This research started in September 2024 with an investigation of
+  the main conceptual ideas of
+  <ext-link ext-link-type="uri" xlink:href="https://maggieappleton.com/garden-history?ref=ideasurg.pub">Digital
+  Gardening</ext-link> described by the cultural anthropologist and lead
+  design engineer at
+  <ext-link ext-link-type="uri" xlink:href="https://normally.com/"><bold>Normally</bold></ext-link>
+  <ext-link ext-link-type="uri" xlink:href="https://maggieappleton.com/about">Maggie
+  Appleton</ext-link>. Appleton
+  (<xref alt="2020" rid="ref-appleton2020Brief" ref-type="bibr">2020</xref>)
+  defines “digital gardening” as an individual practice for idea
+  generation and collection, personal note-taking and knowledge
+  management that is not following the conventions of the otherwise
+  known techniques of personal blogging. Usually, small collections of
+  personal knowledge are created on the web:</p>
+      <disp-quote>
+        <p>“Rather than presenting a set of polished articles, displayed in
+    reverse chronological order, these sites act more like free form,
+    work-in-progress wikis”
+    (<xref alt="Appleton, 2020" rid="ref-appleton2020Brief" ref-type="bibr">Appleton,
+    2020</xref>).</p>
+      </disp-quote>
+      <p>In other words, a <italic>garden</italic> is a flexible collection
+  of evolving ideas connected through contextual associations rather
+  than organised by publication date. These notes are usually
+  incomplete, exploratory thoughts that develop and become rigid over
+  time, but they are less polished compared to traditional personal
+  websites.</p>
+      <p>This more or less lengthy video presentation in
+  <xref alt="Figure 1" rid="fig-digitalgarden">Figure 1</xref> describes
+  this concept:</p>
+      <fig id="fig-digitalgarden">
+        <caption>
+          <p>Figure 1: The video “Digital Gardening in the Age of the
+    Platform” by Cailean Finn. Presented at the 2nd Symposium on Digital
+    Art in Ireland, University College Cork, June 2024 (Source:
+    <ext-link ext-link-type="uri" xlink:href="https://youtu.be/S8uo9oPmx84?si=3Us9i7jv8wsSNY0o">https://youtu.be/S8uo9oPmx84?si=3Us9i7jv8wsSNY0o</ext-link>)</p>
+        </caption>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/embed/S8uo9oPmx84">https://www.youtube.com/embed/S8uo9oPmx84</ext-link>
+        </p>
+      </fig>
+    </sec>
+    <sec id="what-technology-do-i-use">
+      <title>2 What Technology do I use?</title>
+      <p>After browsing the web on my phone, I was wondering how I could
+  clip all the links, documents, quotes etc. Instead of sending
+  everything to a bookmark clipper or other software, I discover the
+  open-source and multi-format academic manuscript writing tool called
+  <ext-link ext-link-type="uri" xlink:href="https://quarto.org/docs/manuscripts/authoring/rstudio.html">Quarto</ext-link>.
+  This is a publishing system that allows users to create and publish a
+  wide variety of documents, including reports, websites, blogs,
+  presentations, and more. All text and code is written with in the
+  <ext-link ext-link-type="uri" xlink:href="https://www.markdownguide.org/getting-started/">Markdown</ext-link>
+  format. For this,
+  <ext-link ext-link-type="uri" xlink:href="https://posit.co/download/rstudio-desktop/">RStudio</ext-link>
+  is currently a suitable editor.</p>
+      <p>Besides that, I use
+  <ext-link ext-link-type="uri" xlink:href="https://tana.inc/">Tana</ext-link>
+  (previously
+  <ext-link ext-link-type="uri" xlink:href="https://roamresearch.com/">Roam
+  Research</ext-link>) on a regularly basis as a go-to tool to store all
+  the links and quotes for personal knowledge management.</p>
+    </sec>
+    <sec id="discovery-of-the-digital-gardens">
+      <title>3 Discovery of the Digital Gardens</title>
+      <p>This is what I found: There are a number of educators and people
+  from the creative industry that are interested in digital gardening.
+  Most pages, blogs, websites work with analogies and metaphors.</p>
+      <p><ext-link ext-link-type="uri" xlink:href="https://downgrade.timrodenbroeker.de/posts/digital-garden/">Tim
+  Rodenböcker</ext-link> describes in his blogpost “How I built myself a
+  Digital Garden”
+  (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How" ref-type="bibr">Rodenbröker,
+  2023</xref>) how he uses ‘clouds-drops-plants’ as artefacts of his
+  thinking, ideation and content creation process. He refers to some of
+  the ideas used in the ‘second brain’ concept by
+  <ext-link ext-link-type="uri" xlink:href="https://fortelabs.com/">Tiago
+  Fortes</ext-link> (see
+  <xref alt="Figure 2" rid="fig-tim">Figure 2</xref>):</p>
+      <disp-quote>
+        <p>“Clouds are notes and excerpts from concrete sources. These can
+    be books, podcast episodes, or press articles. Each cloud is a
+    separate text file in Markdown format. I have now created such a
+    file for all the books I have had in my hands in the last few years.
+    I write a note there when I find a thought interesting while reading
+    or listening to it. Drops are fragments that are too small to
+    represent an independent text. They are tiny stores of information,
+    paragraphs, but also lists and loose notes. Sometimes it’s just a
+    headline. Plants are text projects. I learned the idea from Tiago
+    Forte: he advises to organize one’s knowledge in idea management
+    tools basically in text projects”
+    (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How" ref-type="bibr">Rodenbröker,
+    2023</xref>).</p>
+      </disp-quote>
+      <fig id="fig-tim">
+        <caption>
+          <p>Figure 2: Digital Garden by Tim Rodenböcker (Source:
+    <ext-link ext-link-type="uri" xlink:href="https://downgrade.timrodenbroeker.de/images/dg1.png">https://downgrade.timrodenbroeker.de/images/dg1.png</ext-link>)</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="images/dg1.png"/>
+      </fig>
+      <disp-quote>
+        <p>“I have now created such a file for all the books I have had in
+    my hands in the last few years. I write a note there when I find a
+    thought interesting while reading or listening to it. Drops are
+    fragments that are too small to represent an independent text. They
+    are tiny stores of information, paragraphs, but also lists and loose
+    notes. Sometimes it’s just a headline”
+    (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How" ref-type="bibr">Rodenbröker,
+    2023</xref>).</p>
+      </disp-quote>
+    </sec>
+    <sec id="conclusion">
+      <title>4 Conclusion</title>
+      <p>To conlude for today, digital gardens provide a dynamic and
+  creative framework for personal knowledge management, seamlessly
+  blending flexible idea cultivation with modern digital tools to
+  enhance individual learning and creativity.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="ref-appleton2020Brief">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Appleton</surname>
+              <given-names>Maggie</given-names>
+            </name>
+          </person-group>
+          <article-title>A brief history &amp; ethos of the digital garden: A newly revived philosophy for publishing personal knowledge on the web</article-title>
+          <year iso-8601-date="2020">2020</year>
+          <uri>https://maggieappleton.com/garden-history</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-rodenbroker2023How">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodenbröker</surname>
+              <given-names>Tim</given-names>
+            </name>
+          </person-group>
+          <article-title>How i built myself a digital garden</article-title>
+          <year iso-8601-date="2023-10-08">2023</year>
+          <month>10</month>
+          <day>08</day>
+          <uri>https://downgrade.timrodenbroeker.de/posts/digital-garden/</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-4-nb-article">
+    <front-stub>
+      <title-group>
+        <article-title>Digital Garden Notebook</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-9609-8521</contrib-id>
+          <name>
+            <surname>Arnold</surname>
+            <given-names>Maik</given-names>
+          </name>
+          <string-name>Maik Arnold</string-name>
+          <email>maik.arnold@studium.uni-hamburg.de</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+administration</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1-nb-article">
+        <institution-wrap>
+          <institution>Universität Hamburg</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1-nb-article">maik.arnold@studium.uni-hamburg.de</corresp>
+      </author-notes>
+      <abstract>
+        <p>In September 2024, I started my Master’s thesis at Hamburg University
+that deals with the use of digital gardening as a pedagogical practice
+for university teachers. This notebook contain all contents of my field
+research in order to identify such practices.</p>
+      </abstract>
+    </front-stub>
+    <body>
+      <sec id="first-reading-excerpts-of-digital-garden-websites-nb-article">
+        <title>1 First Reading Excerpts of Digital Garden Websites</title>
+        <boxed-text>
+          <disp-quote>
+            <p>
+              <bold>Note</bold>
+            </p>
+            <p>This notebook is regularly updated.</p>
+          </disp-quote>
+        </boxed-text>
+        <p>This research started in September 2024 with an investigation of
+  the main conceptual ideas of
+  <ext-link ext-link-type="uri" xlink:href="https://maggieappleton.com/garden-history?ref=ideasurg.pub">Digital
+  Gardening</ext-link> described by the cultural anthropologist and lead
+  design engineer at
+  <ext-link ext-link-type="uri" xlink:href="https://normally.com/"><bold>Normally</bold></ext-link>
+  <ext-link ext-link-type="uri" xlink:href="https://maggieappleton.com/about">Maggie
+  Appleton</ext-link>. Appleton
+  (<xref alt="2020" rid="ref-appleton2020Brief-nb-article" ref-type="bibr">2020</xref>)
+  defines “digital gardening” as an individual practice for idea
+  generation and collection, personal note-taking and knowledge
+  management that is not following the conventions of the otherwise
+  known techniques of personal blogging. Usually, small collections of
+  personal knowledge are created on the web:</p>
+        <disp-quote>
+          <p>“Rather than presenting a set of polished articles, displayed in
+    reverse chronological order, these sites act more like free form,
+    work-in-progress wikis”
+    (<xref alt="Appleton, 2020" rid="ref-appleton2020Brief-nb-article" ref-type="bibr">Appleton,
+    2020</xref>).</p>
+        </disp-quote>
+        <p>In other words, a <italic>garden</italic> is a flexible collection
+  of evolving ideas connected through contextual associations rather
+  than organised by publication date. These notes are usually
+  incomplete, exploratory thoughts that develop and become rigid over
+  time, but they are less polished compared to traditional personal
+  websites.</p>
+        <p>This more or less lengthy video presentation in
+  <xref alt="Figure 1" rid="fig-digitalgarden-nb-article">Figure 1</xref> describes
+  this concept:</p>
+        <fig id="fig-digitalgarden-nb-article">
+          <caption>
+            <p>Figure 1: The video “Digital Gardening in the Age of the
+    Platform” by Cailean Finn. Presented at the 2nd Symposium on Digital
+    Art in Ireland, University College Cork, June 2024 (Source:
+    <ext-link ext-link-type="uri" xlink:href="https://youtu.be/S8uo9oPmx84?si=3Us9i7jv8wsSNY0o">https://youtu.be/S8uo9oPmx84?si=3Us9i7jv8wsSNY0o</ext-link>)</p>
+          </caption>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/embed/S8uo9oPmx84">https://www.youtube.com/embed/S8uo9oPmx84</ext-link>
+          </p>
+        </fig>
+      </sec>
+      <sec id="what-technology-do-i-use-nb-article">
+        <title>2 What Technology do I use?</title>
+        <p>After browsing the web on my phone, I was wondering how I could
+  clip all the links, documents, quotes etc. Instead of sending
+  everything to a bookmark clipper or other software, I discover the
+  open-source and multi-format academic manuscript writing tool called
+  <ext-link ext-link-type="uri" xlink:href="https://quarto.org/docs/manuscripts/authoring/rstudio.html">Quarto</ext-link>.
+  This is a publishing system that allows users to create and publish a
+  wide variety of documents, including reports, websites, blogs,
+  presentations, and more. All text and code is written with in the
+  <ext-link ext-link-type="uri" xlink:href="https://www.markdownguide.org/getting-started/">Markdown</ext-link>
+  format. For this,
+  <ext-link ext-link-type="uri" xlink:href="https://posit.co/download/rstudio-desktop/">RStudio</ext-link>
+  is currently a suitable editor.</p>
+        <p>Besides that, I use
+  <ext-link ext-link-type="uri" xlink:href="https://tana.inc/">Tana</ext-link>
+  (previously
+  <ext-link ext-link-type="uri" xlink:href="https://roamresearch.com/">Roam
+  Research</ext-link>) on a regularly basis as a go-to tool to store all
+  the links and quotes for personal knowledge management.</p>
+      </sec>
+      <sec id="discovery-of-the-digital-gardens-nb-article">
+        <title>3 Discovery of the Digital Gardens</title>
+        <p>This is what I found: There are a number of educators and people
+  from the creative industry that are interested in digital gardening.
+  Most pages, blogs, websites work with analogies and metaphors.</p>
+        <p><ext-link ext-link-type="uri" xlink:href="https://downgrade.timrodenbroeker.de/posts/digital-garden/">Tim
+  Rodenböcker</ext-link> describes in his blogpost “How I built myself a
+  Digital Garden”
+  (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How-nb-article" ref-type="bibr">Rodenbröker,
+  2023</xref>) how he uses ‘clouds-drops-plants’ as artefacts of his
+  thinking, ideation and content creation process. He refers to some of
+  the ideas used in the ‘second brain’ concept by
+  <ext-link ext-link-type="uri" xlink:href="https://fortelabs.com/">Tiago
+  Fortes</ext-link> (see
+  <xref alt="Figure 2" rid="fig-tim-nb-article">Figure 2</xref>):</p>
+        <disp-quote>
+          <p>“Clouds are notes and excerpts from concrete sources. These can
+    be books, podcast episodes, or press articles. Each cloud is a
+    separate text file in Markdown format. I have now created such a
+    file for all the books I have had in my hands in the last few years.
+    I write a note there when I find a thought interesting while reading
+    or listening to it. Drops are fragments that are too small to
+    represent an independent text. They are tiny stores of information,
+    paragraphs, but also lists and loose notes. Sometimes it’s just a
+    headline. Plants are text projects. I learned the idea from Tiago
+    Forte: he advises to organize one’s knowledge in idea management
+    tools basically in text projects”
+    (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How-nb-article" ref-type="bibr">Rodenbröker,
+    2023</xref>).</p>
+        </disp-quote>
+        <fig id="fig-tim-nb-article">
+          <caption>
+            <p>Figure 2: Digital Garden by Tim Rodenböcker (Source:
+    <ext-link ext-link-type="uri" xlink:href="https://downgrade.timrodenbroeker.de/images/dg1.png">https://downgrade.timrodenbroeker.de/images/dg1.png</ext-link>)</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="images/dg1.png"/>
+        </fig>
+        <disp-quote>
+          <p>“I have now created such a file for all the books I have had in
+    my hands in the last few years. I write a note there when I find a
+    thought interesting while reading or listening to it. Drops are
+    fragments that are too small to represent an independent text. They
+    are tiny stores of information, paragraphs, but also lists and loose
+    notes. Sometimes it’s just a headline”
+    (<xref alt="Rodenbröker, 2023" rid="ref-rodenbroker2023How-nb-article" ref-type="bibr">Rodenbröker,
+    2023</xref>).</p>
+        </disp-quote>
+      </sec>
+      <sec id="conclusion-nb-article">
+        <title>4 Conclusion</title>
+        <p>To conlude for today, digital gardens provide a dynamic and
+  creative framework for personal knowledge management, seamlessly
+  blending flexible idea cultivation with modern digital tools to
+  enhance individual learning and creativity.</p>
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title>References</title>
+        <ref id="ref-appleton2020Brief-nb-article">
+          <element-citation>
+            <person-group person-group-type="author">
+              <name>
+                <surname>Appleton</surname>
+                <given-names>Maggie</given-names>
+              </name>
+            </person-group>
+            <article-title>A brief history &amp; ethos of the digital garden: A newly revived philosophy for publishing personal knowledge on the web</article-title>
+            <year iso-8601-date="2020">2020</year>
+            <uri>https://maggieappleton.com/garden-history</uri>
+          </element-citation>
+        </ref>
+        <ref id="ref-rodenbroker2023How-nb-article">
+          <element-citation>
+            <person-group person-group-type="author">
+              <name>
+                <surname>Rodenbröker</surname>
+                <given-names>Tim</given-names>
+              </name>
+            </person-group>
+            <article-title>How i built myself a digital garden</article-title>
+            <year iso-8601-date="2023-10-08">2023</year>
+            <month>10</month>
+            <day>08</day>
+            <uri>https://downgrade.timrodenbroeker.de/posts/digital-garden/</uri>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-2-nb-1">
+    <front-stub>
+      <title-group>
+        <article-title>Explore Earthquakes</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wickham</surname>
+            <given-names>Charlotte</given-names>
+          </name>
+          <string-name>Charlotte Wickham</string-name>
+        </contrib>
+      </contrib-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
+</code>
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.3     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </boxed-text>
+      </sec>
+      <p>Read a clean version of data:</p>
+      <sec specific-use="notebook-content">
+        <code language="r script">la_palma &lt;- read_csv("la-palma.csv")
+</code>
+        <boxed-text>
+          <preformat>Rows: 11347 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl  (4): Longitude, Latitude, Depth(km), Magnitude
+dttm (1): DateTime
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</preformat>
+        </boxed-text>
+      </sec>
+      <p>Create spatial plot:</p>
+      <sec id="cell-fig-spatial-plot-nb-1" specific-use="notebook-content">
+        <code language="r script">#|   against longitude."
+la_palma |&gt; 
+  ggplot(aes(Longitude, Latitude)) +
+  geom_point(aes(color = Magnitude, size = 40-`Depth(km)`)) +
+  scale_color_viridis_c(direction = -1) + 
+  scale_size(range = c(0.5, 2), guide = "none") +
+  theme_bw()
+</code>
+        <fig id="fig-spatial-plot-nb-1">
+          <caption>
+            <p>Locations of earthquakes on La Palma since
+  2017</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="explore-earthquakes_files/figure-jats/fig-spatial-plot-1.png"/>
+        </fig>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+</article>
